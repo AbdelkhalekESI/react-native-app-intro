@@ -342,6 +342,7 @@ export default class AppIntro extends Component {
       <View>
         {androidPages}
         <Swiper
+          {...this.props}
           loop={false}
           index={this.props.defaultIndex}
           renderPagination={this.renderPagination}
